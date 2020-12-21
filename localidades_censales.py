@@ -1,5 +1,15 @@
 #!/usr/bin/python
 
+#Según los datos de https://infra.datos.gob.ar/catalog/modernizacion/dataset/7/distribution/7.27/download/localidades-censales.json
+#El script importa las localidades de dicho JSON.
+#Siempre y cuando tengamos un modelo creado para las localidades.
+
+#En Odoo hay que cambiar el nombre de las siguientes provincias
+#Santiago Del Estero -> Santiago del Estero
+#Tierra del Fuego -> Tierra del Fuego, Antártida e Islas del Atlántico Sur
+
+
+
 import sys
 import xmlrpclib
 import ssl
